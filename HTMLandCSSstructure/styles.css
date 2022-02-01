@@ -1,4 +1,9 @@
-.paragraph{  /*Class paragraph.*/
+.group{     /*Class group*/
+    background-color: skyblue;
+    padding: 50px;
+    color:deeppink;
+}
+.paragraph{  /*Class paragraph*/
     color: blueviolet;
 }
 #title {
