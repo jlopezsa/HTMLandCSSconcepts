@@ -70,7 +70,7 @@ The <code>\<spam\>...\</spam\></code> is used to group part of the content of an
 ```
 <img src="./figuresReadme/table_simple.jpg" width="200"/>
 
-Border's table, style border and color border
+### Table's border, style border and color border
 ```css
 table,tr,td{
     border: 1px solid red;
@@ -78,11 +78,60 @@ table,tr,td{
 ```
 <img src="./figuresReadme/table_border_and_color.jpg" width="200"/>
 
-Single line in table borders.
+### Single line in table borders.
 ```css
 table,tr,td{
     border: 1px solid red;
     border-collapse: collapse;
 }
 ```
+<img src="./figuresReadme/table_single_border_and_color.jpg" width="200"/>
+
+## Table headers
+
+The code <code>\<th\>...\</th\></code> adds the table headers. However, to show header line in the table, the <code>th</code> label may be added.
+HTML code is
+```html
+<table>
+    <tr> <!--Row-->
+        <th>  <!--Column or cel-->
+            11 cell
+        </th>
+        <th>12 cell</th>
+        <th>13 cell</th>
+        </tr>
+```
+and CSS code is
+```css
+table,tr,td,th{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+```
+<img src="./figuresReadme/table_header.jpg" width="200"/>
+
+## Merge cells
+
+the code <code>\<td colspan="2"\>32 cell\</td\></code> merges two columns
+```html
+    <table>
+        <tr> <!--Row-->
+            <th>  <!--Column or cel-->
+                11 cell
+            </th>
+            <th>12 cell</th>
+            <th>13 cell</th>
+        </tr>
+        <tr>
+            <td>21 cell</td>
+            <td>22 cell</td>
+            <td>23 cell</td>
+        </tr>
+        <tr>
+            <td>31 cell</td>
+            <td colspan="2">32 cell</td>
+        </tr>
+    </table>
+```
+
 
