@@ -44,7 +44,45 @@ The <code>\<spam\>...\</spam\></code> is used to group part of the content of an
 <p>Lorem, ipsum dolor sit <span>amet consectetur adipisicing</span> elit. Minima at blanditiis id enim molestiae ex! Mollitia, voluptatum? Esse debitis quam libero ad fugit voluptatibus ab. Porro unde a maxime pariatur! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt <span>aperiam iste at minima itaque</span> quaerat sapiente fugit saepe suscipit. Iusto natus voluptatibus molestias architecto possimus pariatur repellat culpa autem rem.</p>
 ```
 
+# Tables
 
+## Table structure in HTML
+```html
+<table>
+    <tr> <!--Row-->
+        <td>  <!--Column or cel-->
+            11 cell
+        </td>
+        <td>12 cell</td>
+        <td>13 cell</td>
+    </tr>
+    <tr>
+        <td>21 cell</td>
+        <td>22 cell</td>
+        <td>23 cell</td>
+    </tr>
+    <tr>
+        <td>31 cell</td>
+        <td>32 cell</td>
+        <td>33 cell</td>
+    </tr>
+</table>
+```
+<img src="./figuresReadme/table_simple.jpg" width="200"/>
 
+Border's table, style border and color border
+```css
+table,tr,td{
+    border: 1px solid red;
+}
+```
+<img src="./figuresReadme/table_border_and_color.jpg" width="200"/>
 
+Single line in table borders.
+```css
+table,tr,td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+```
 
