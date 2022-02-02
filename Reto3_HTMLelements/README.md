@@ -6,5 +6,5 @@ Challenge
 
 Answer
 
-<img src="./figuresReadme/challenge_2_result_make_it_real_css_styles.jpg" width="400"/>
+<img src="./figuresReadme/challenge_3_answer_make_it_real_html_elements.jpg" width="400"/>
 
