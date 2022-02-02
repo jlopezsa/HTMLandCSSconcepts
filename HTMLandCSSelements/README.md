@@ -112,7 +112,7 @@ table,tr,td,th{
 
 ## Merge cells
 
-the code <code>\<td colspan="2"\>32 cell\</td\></code> merges two columns
+The code <code>\<td colspan="2"\>32 cell\</td\></code> merges two columns
 ```html
     <table>
         <tr> <!--Row-->
@@ -133,5 +133,26 @@ the code <code>\<td colspan="2"\>32 cell\</td\></code> merges two columns
         </tr>
     </table>
 ```
+<img src="./figuresReadme/table_merge_columns.jpg" width="200"/>
 
+## Merge rows
+The code <code>\<td rowspan="2"\>21 cell\</td\></code> merges two rows.
+```html
+    <table>
+        <tr> <!--Row-->
+            <th>11 cell</th>
+            <th>12 cell</th>
+            <th>13 cell</th>
+        </tr>
+        <tr>
+            <td rowspan="2">21 cell</td>
+            <td>22 cell</td>
+            <td>23 cell</td>
+        </tr>
+        <tr>
+            <td colspan="2">32 cell</td>
+        </tr>
+    </table>
+```
+<img src="./figuresReadme/table_merge_rows.jpg" width="200"/>
 
