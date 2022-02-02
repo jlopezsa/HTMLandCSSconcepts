@@ -1,0 +1,12 @@
+.orderedList{
+    background-color: yellow;
+}
+
+.unorderedList{
+    background-color: black;
+    color: white;
+}
+
+#textBlock{
+    color: red;
+}
