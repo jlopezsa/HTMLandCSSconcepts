@@ -2,3 +2,17 @@ table,tr,td,th{
     border: 1px solid red;
     border-collapse: collapse;
 }
+
+.boxP1{
+    background-color:aqua;
+    padding: 10px 50px 10px 50px;
+    border: 5px solid blue;
+    margin: 20px 60px 20px 60px;
+}
+
+.boxP2{
+    background-color:aquamarine;
+    padding: 100px 120px 100px 120px;
+    border: 20px solid red;  
+    margin: 20px 60px 20px 60px;
+}

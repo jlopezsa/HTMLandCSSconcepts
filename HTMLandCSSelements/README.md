@@ -156,3 +156,32 @@ The code <code>\<td rowspan="2"\>21 cell\</td\></code> merges two rows.
 ```
 <img src="./figuresReadme/table_merge_rows.jpg" width="200"/>
 
+# Boxes
+
+Graphic concepts of content, padding, border and margin.
+
+HTML code
+```html
+<p class="boxP1">Lorem ... doloremque. Reiciendis?</p>
+    
+<p class="boxP2">Lorem ipsum dolor ... dignissimos unde voluptatem.</p>
+```
+
+CSS code
+```css
+.boxP1{
+    background-color:aqua;
+    padding: 10px 50px 10px 50px;
+    border: 5px solid blue;
+    margin: 20px 60px 20px 60px;
+}
+
+.boxP2{
+    background-color:aquamarine;
+    padding: 100px 120px 100px 120px;
+    border: 20px solid red;  
+    margin: 20px 60px 20px 60px;
+}
+```
+
+<img src="./figuresReadme/Boxes_content_padding_border_margin.jpg" width="800"/>
