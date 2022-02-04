@@ -1,0 +1,33 @@
+.containerHead{
+    background-color: cadetblue;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.containerEye{
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+.boxIris{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 0px;
+    top: 25px;
+}
+
+.boxMouth{
+    background-color:pink;
+    height: 25px;
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 87.5px;
+}
