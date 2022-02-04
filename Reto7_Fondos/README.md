@@ -8,7 +8,7 @@ Answer
 
 <img src="./figuresReadme/challenge_7_answer_make_it_real_html_fondos.jpg" width="1000"/>
 
-# Background propesties (index.html and styles.css files)
+# Background properties (index.html and styles.css files)
 
 ```css
 .background{
