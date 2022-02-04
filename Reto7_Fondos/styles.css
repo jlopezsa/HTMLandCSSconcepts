@@ -1,0 +1,10 @@
+.background{
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    background-image: url(./figuresReadme/world-comm_640x453.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%; /*x(width) - y (heigh), units also may be cm, mm, px*/
+    background-attachment: fixed;
+}
