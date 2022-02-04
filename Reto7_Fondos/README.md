@@ -1,4 +1,4 @@
-# Introduction
+# Introduction (index_reto7.html and styles_reto7.css files)
 
 Challenge
 
@@ -8,7 +8,7 @@ Answer
 
 <img src="./figuresReadme/challenge_6_answer_make_it_real_html_cajas.jpg" width="400"/>
 
-# Background 
+# Background propesties (index.html and styles.css files)
 
 ```css
 .background{
