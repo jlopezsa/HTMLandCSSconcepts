@@ -9,3 +9,26 @@
 .cajaLinea{
     border: 2px solid green;
 }
+
+.bloqueMayor{
+    background-color: red;
+    width: 700px;
+    height: 500px;
+    position: relative;
+}
+
+.bloqueMenor{
+    background-color: blue;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+}
+.bloqueMenor2{
+    background-color: greenyellow;
+    width: 350px;
+    height: 250px;
+    background-position-x: right;
+    position: absolute;
+    left: 300px;
+    bottom: 125px;
+}
