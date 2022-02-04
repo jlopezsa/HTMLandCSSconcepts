@@ -6,7 +6,7 @@ Challenge
 
 Answer
 
-<img src="./figuresReadme/challenge_6_answer_make_it_real_html_cajas.jpg" width="400"/>
+<img src="./figuresReadme/challenge_7_answer_make_it_real_html_fondos.jpg" width="1000"/>
 
 # Background propesties (index.html and styles.css files)
 
@@ -37,6 +37,7 @@ Answer
     height: 500px;
     background-color: blueviolet;
     background-image: url(./figuresReadme/world-comm_640x453.png);
+    background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 ```
