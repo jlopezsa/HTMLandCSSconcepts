@@ -1,8 +1,14 @@
+.containerGeral{
+    background-color: white;
+    position: relative;
+    height: 900px;
+}
+
 .containerHead{
     background-color: cadetblue;
     height: 400px;
     width: 400px;
-    position: relative;
+    position: absolute;
 }
 
 .containerEye{
@@ -30,4 +36,30 @@
     position: absolute;
     right: 0px;
     bottom: 87.5px;
+}
+
+.containerBody{
+    background-color: black;
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    top: 400px;
+}
+
+.boxArm{
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 225px;
+    top: 225px
+}
+
+.boxText{
+    border: 2px dashed blue;
+    width: 250px;
+    text-align: center;
+    position: absolute;
+    right: 40px;
+    top: 300px;
 }

@@ -6,4 +6,4 @@ Challenge
 
 Answer
 
-<img src="./figuresReadme/challenge_6_answer_make_it_real_html_cajas.jpg" width="400"/>
+<img src="./figuresReadme/challenge_8_answer_make_it_real_html_posicionamiento.jpg" width="800"/>
