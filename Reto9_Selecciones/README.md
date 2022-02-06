@@ -2,11 +2,11 @@
 
 Challenge
 
-<img src="./figuresReadme/../challenge_9_make_it_real_html_selectores.jpg" width="600"/>
+<img src="./figuresReadme/challenge_9_make_it_real_html_selectores.jpg" width="600"/>
 
 Answer
 
-<img src="./figuresReadme/../challenge_9_answer_make_it_real_html_selectores.jpg" width="600"/>
+<img src="./figuresReadme/challenge_9_answer_make_it_real_html_selectores.jpg" width="600"/>
 
 
 ```html
