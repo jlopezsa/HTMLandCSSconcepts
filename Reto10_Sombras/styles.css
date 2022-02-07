@@ -1,37 +1,3 @@
-# Introduction
-
-Challenge
-
-<img src="./figuresReadme/challenge_10_make_it_real_html_sombrasjpg.jpg" width="600"/>
-
-Answer
-
-<img src="./figuresReadme/challenge_10_answer_make_it_real_html_sombrasjpg.jpg" width="600"/>
-
-HTML code
-
-```html
-<body>
-    <div class="containerGeral">
-        <div class="containerHead">
-            <div class="containerEye">
-                <div class="boxIris"></div>
-            </div>
-            <div class="boxMouth"></div>
-        </div>
-        <div class="containerBody">
-            <div class="boxArm"></div>
-        </div>
-        <div class="boxText">
-            <h3>Sombras con CSS!</h3>
-        </div>
-    </div>
-</body>
-```
-
-CSS code
-
-```css
 .containerGeral{
     background-color: white;
     position: relative;
@@ -106,4 +72,3 @@ CSS code
 .boxText h3{
     text-shadow: 0px 0px 15px red;
 }
-```
