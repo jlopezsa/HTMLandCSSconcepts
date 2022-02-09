@@ -7,7 +7,7 @@ HTMLandCSSconcepts is a repository to show some HTML and CSS concepts. The repos
   * unordered and ordered list, 
   * tables, 
   * boxes.
-  * 
+  
 * Reto##_description: These folders have the answers of the challenges proposed by Make It Real (fundamentals topics). In each folder is approached other topics required to learn the HTML text format, such as:
   * forms, 
   * boxes, 
