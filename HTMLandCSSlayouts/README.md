@@ -22,4 +22,5 @@ Some link tutorial in [w3schools](https://www.w3schools.com/css/css3_flexbox.asp
 
 ## Results
 
+<img src="./figuresReadme/flex-box-properties.gif" width="800"/>
 <img src="./figuresReadme/flex-box-result.gif" width="800"/>
