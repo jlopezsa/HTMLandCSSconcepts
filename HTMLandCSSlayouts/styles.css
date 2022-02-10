@@ -4,11 +4,12 @@
 }
 /*************************************************/
 .flex-container{
-    height: 50px;
     display: flex;
     background-color: bisque;
     border: 1px solid red;
+    height: 50px;
     justify-content: flex-end;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -34,13 +35,15 @@
 
 /*************************************************/
 .flex-foot-container{
+    height: 50px;
     display: flex;
     background-color: bisque;
     border: 1px solid red;
     justify-content: center;
+    align-items: center;
 }
 
 .flex-foot-container a{
     margin: 20px;   
     border: 1px solid blue;
-}1
+}
