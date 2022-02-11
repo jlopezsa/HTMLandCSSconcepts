@@ -8,16 +8,15 @@
     display: flex;
     background-color: bisque;
     border: 1px solid red;
-    flex-direction: row;
     justify-content: flex-end;
     flex-wrap: wrap;
-    padding: 20px 0 20px 0;
+    padding: 10px;
     /*height: 50px;*/   /*Media query don't work well with this property*/
 }
 
 .flex-container a{
-    margin: 10px;   
     border: 1px solid blue;
+    padding: 2px;
 }
 
 /*************************************************/
@@ -32,9 +31,7 @@
 }
 
 .flex-description p{
-    /*margin-inline: 10px;*/
     width: 200px;
-    /*padding: 20px;*/
     border: 1px solid blue;
 }
 
@@ -52,9 +49,17 @@
     border: 1px solid blue;
 }
 /*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
-@media (max-width: 320px) {
-.flex-container{
-        background-color: chartreuse;
+@media (max-width: 450px) {
+    .flex-container{
+        display: flex;
         flex-direction: column;
+        background-color: chartreuse;
+        padding: 10px;
+    }
+    .flex-container a{
+        display: flex;
+        justify-content:flex-end;
+        border: 1px solid blue;
+        margin-top: 2px;
     }
 }
