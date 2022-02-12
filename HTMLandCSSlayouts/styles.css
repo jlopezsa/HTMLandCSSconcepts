@@ -1,6 +1,6 @@
 .mainContainer{
     background-color:aqua;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 0px 0px 0px;
 }
 
 /*************************************************/
@@ -11,9 +11,11 @@
     height: 100px;
 }
 .flex-header img{
-    height: 90px;
+    display: flex;
+    height: 70px;
     border: 1px solid coral;
     margin: 2px 0 2px 20px;
+    align-self: center
 }
 .flex-header nav{
     display: flex;
@@ -79,16 +81,19 @@
     }
 }
 
-@media (max-width: 650px){
+/*@media (max-width: 650px){
     .flex-header img{
         height: 70px;
     }
     .flex-header a{
         font-size: 14px;
     }
-}
+}*/
 
-@media (max-width: 560px) {
+@media (max-width: 510px) {
+    .flex-header{
+        background-color: chartreuse;
+    }
     .flex-header nav{
         display: flex;
         border: 1px dashed blue;
@@ -101,6 +106,7 @@
         height: 70px;
     }
     .flex-header a{
-        margin: 0px;        
+        margin: 0px;   
+        font-size: 14px;     
     }
 }
