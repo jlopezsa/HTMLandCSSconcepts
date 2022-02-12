@@ -22,5 +22,11 @@ Some link tutorial in [w3schools](https://www.w3schools.com/css/css3_flexbox.asp
 
 ## Results
 
+without media query
 <img src="./figuresReadme/flex-box-properties.gif" width="800"/>
+
+First version of media query, errors are presented.
 <img src="./figuresReadme/flex-box-result.gif" width="800"/>
+
+Results with media query. Also was added a logo in header.
+<img src="./figuresReadme/flex-box-media-query.gif" width="800"/>
