@@ -4,19 +4,28 @@
 }
 
 /*************************************************/
-.flex-container{
+.flex-header{
     display: flex;
     background-color: bisque;
     border: 1px solid red;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    padding: 10px;
-    /*height: 50px;*/   /*Media query don't work well with this property*/
 }
-
-.flex-container a{
-    border: 1px solid blue;
-    padding: 2px;
+.flex-header img{
+    width: 150px;
+    border: 1px solid coral;
+    margin: 2px 0 2px 20px;
+}
+.flex-header nav{
+    display: flex;
+    border: 1px dashed blue;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2px 20px 2px 2px;
+}
+.flex-header a{
+    border: 1px solid magenta;
+    font-size: 18px;
 }
 
 /*************************************************/
