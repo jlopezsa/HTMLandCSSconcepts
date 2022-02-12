@@ -8,9 +8,10 @@
     display: flex;
     background-color: bisque;
     border: 1px solid red;
+    height: 100px;
 }
 .flex-header img{
-    width: 150px;
+    height: 90px;
     border: 1px solid coral;
     margin: 2px 0 2px 20px;
 }
@@ -18,7 +19,7 @@
     display: flex;
     border: 1px dashed blue;
     justify-content: flex-end;
-    flex-grow: 1;
+    flex-grow: 1;                   /*<--- Search*/
     align-items: center;
     flex-wrap: wrap;
     margin: 2px 20px 2px 2px;
@@ -26,6 +27,7 @@
 .flex-header a{
     border: 1px solid magenta;
     font-size: 18px;
+    margin: 5px;
 }
 
 /*************************************************/
@@ -61,19 +63,6 @@
 
 /*VVVVVVVVVVVVVVVVV Media Query VVVVVVVVVVVVVVVVVVVVV*/
 @media (max-width: 450px) {
-    .flex-container{
-        display: flex;
-        flex-direction: column;
-        background-color: chartreuse;
-        padding: 10px;
-    }
-    .flex-container a{
-        display: flex;
-        justify-content:flex-end;
-        border: 1px solid blue;
-        margin-top: 2px;
-    }
-    /*-------------------------------------*/
     .flex-foot-container{
         display: flex;
         background-color: chartreuse;
@@ -87,5 +76,31 @@
         text-align: center;
         border: 1px solid blue;
         margin: 10px;
+    }
+}
+
+@media (max-width: 650px){
+    .flex-header img{
+        height: 70px;
+    }
+    .flex-header a{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 560px) {
+    .flex-header nav{
+        display: flex;
+        border: 1px dashed blue;
+        flex-direction: column;
+        flex-grow: 1;                   /*<--- Search*/
+        align-items: flex-end;
+        margin: 2px 20px 2px 2px;
+    }
+    .flex-header img{
+        height: 70px;
+    }
+    .flex-header a{
+        margin: 0px;        
     }
 }
